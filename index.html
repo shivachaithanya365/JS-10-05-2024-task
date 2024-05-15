@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Switch Case</title>
+    <style>
+        pre {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            margin-left: 35%;
+        }
+    </style>
+</head>
+
+<body>
+    <pre>
+    <h2>1.program to find out who are eligilbe to vote</h2>
+
+    let age = 50;
+    switch (true) {
+    case age > 0 && age <= 18:
+        console.log("amchure voters");
+        break;
+    case age > 18 && age <= 35:
+        console.log("Youth voters");
+        break;
+    case age > 35 && age <= 60:
+        console.log("Adult voters");
+        break;
+    case age > 60 && age <= 130:
+        console.log("senior citizens");
+        break;
+
+    default:
+        console.log("Invalid");
+        break;
+    }
+    <h2>output:</h2>
+        Adult voters
+
+        <h2>2.program to find out whether student passed or failed</h2>
+        let marks = 50;
+        if (marks >= 35) {
+            console.log("You have Passed");
+        }
+        else {
+            console.log("You have Failed");
+        }
+        <h2>output:</h2>
+        You have Passed
+    </pre>
+    <script>
+        // program to find out who are eligilbe to vote
+        let age = 50;
+        switch (true) {
+            case age > 0 && age <= 18:
+                console.log("amchure voters");
+                break;
+            case age > 18 && age <= 35:
+                console.log("Youth voters");
+                break;
+            case age > 35 && age <= 60:
+                console.log("Adult voters");
+                break;
+            case age > 60 && age <= 130:
+                console.log("senior citizens");
+                break;
+
+            default:
+                console.log("Invalid");
+                break;
+        }
+        // program to find out whether student passed or failed
+        let marks = 50;
+        if (marks >= 35) {
+            console.log("You have Passed");
+        }
+        else {
+            console.log("You have Failed");
+        }
+    </script>
+</body>
+
+</html>
